@@ -31,10 +31,10 @@ var cv = [
         "統計軟體：SAS Base、SAS EG、SPSS",
         "GIS軟體：QGIS、ArcGIS"
     ],
-    "phone":"0928777406",
+    "phone":"",
     "email":"brian90191@gmail.com",
     "facebook":"https://www.facebook.com/yiwei.yeah",
-    "address":"251 新北市淡水區英專路172號B1",
+    "address":"",
     "website":"http://yiwei.azurewebsites.net"
   }
 ]
