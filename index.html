@@ -1,0 +1,195 @@
+
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <title>YiWei Ye, 葉鎰維</title>
+    <meta name="description" content="">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.4/semantic.min.css">
+    <link href="css/css.css" rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main.css">
+    
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.4/semantic.min.js"></script>
+
+    <script src="data/data.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+  <div  id="head_info" class="ui huge middle aligned stackable grid container">
+        <div class="two wide right floated column">
+          <div id="cv_image" class="ui small circular image" style="box-shadow:0px 0px 1px 1px rgba(20%,20%,20%,0.1);">
+          </div>
+        </div>
+        <div id="cv_introduction" class="eleven wide left floated column">
+        </div>
+    </div>
+    <main class="ui page grid">
+        <div class="computer tablet only row">
+            <nav class="ui blue fixed secondary menu inverted navbar" style="font-size:18px">
+              <div href="#" class="header item">
+                   <div style="width:130px; ">
+                      <img src="img/logo.png" style="width:130px">
+                  </div>
+              </div>
+              <a id="cv_item" class="item"><i class="browser icon"></i>簡歷</a>
+              <a id="achievement_item" class="item"><i class="idea icon"></i>成果/作品</a>
+              <a id="project_item"  class="item"><i class="folder open outline icon"></i>專案/計畫</a>
+              <a id="publication_item" class="item"><i class="file text outline icon"></i>發表</a>
+             <!--  <a class="ui dropdown item">其他
+                <i class="dropdown icon"></i>
+                <div class="menu">
+                  <div class="item">Action</div>
+                  <div class="item">Another action</div>
+                </div>
+              </a> -->
+              <div class="right menu">
+                <a id="contact_item" class="item"><i class="mail outline icon"></i>聯絡我</a>
+                <a href="https://www.facebook.com/yiwei.yeah" target="_blank" class="item"><i class="ui blue facebook circular icon" style="background-color: white"></i></a>
+            </div>
+          </nav> 
+        </div>
+        <div class="mobile only narrow row">
+          <nav class="ui blue fixed secondary menu inverted navbar" style="font-size:18px">
+              <div href="#" class="header item">
+                  <div style="width:130px; ">
+                      <img src="img/logo.png" style="width:130px">
+                  </div>
+              </div>
+              <div id="mobile_bar" class="right menu open">
+                    <a href="" class="menu item" >
+                        <i id="mobile_icon" class="sidebar icon"></i>
+                    </a>
+                </div>
+          </nav>
+          <div id="mobile_menu" class="ui  big right fixed vertical navbar menu" style="top: 61px; width:100%">
+              <a href="" class="item"><i class="comment outline icon"></i>簡介</a>
+              <a id="cv_item_m" class="item"><i class="browser icon"></i>簡歷</a>
+              <a id="achievement_item_m"  class="item"><i class="idea icon"></i>成果/作品</a>
+              <a id="project_item_m"  class="item"><i class="folder open outline icon"></i>專案/計畫</a>
+              <a id="publication_item_m"  class="item "><i class="file text outline icon"></i>發表</a>
+              <!-- <div class="ui item">
+                    <div class="text">其他</div>
+                    <div class="menu">
+                        <a class="item">Action</a>
+                        <a class="item">Another action</a>
+                      </div>
+                </div> -->
+                <a id="contact_item_m" class="item"><i class="mail outline icon"></i>聯絡我</a>
+                <a href="https://www.facebook.com/yiwei.yeah" target="_blank" class="item"><i class="ui blue facebook icon" style="background-color: white"></i>Facebook</a>
+          </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <div class="ui icon message main" style="background-color: #FFFFFF">
+                  <div class="content">
+                    <h3>生日</h3>
+                    <div id="birthday"></div>
+                    <h3>學歷</h3>
+                    <div id="edu_background"></div>
+                    <h3>工作經歷</h3>
+                    <div id="work"></div>
+                    <h3>實習/助理經驗</h3>
+                    <div id="intern"></div>
+                    <h3>主要程式開發工具</h3>
+                    <div id="dev_skill"></div>
+                    <h3>其他工具</h3>
+                    <div id="tool"></div>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div id="achievement_div" class="row">
+          <div class="column">
+            <h1 class="ui header">成果/作品</h1>
+            <div class="ui divider"></div>
+            <div id="achievement_list" class="ui three stackable cards"></div>
+          </div>
+        </div>
+
+        <div id="project_div" class="row">
+          <div class="column">
+            <h1 class="ui header">專案/計畫</h1>
+            <div class="ui divider"></div>
+            <div id="project_list" class="ui three stackable cards"></div>
+          </div>
+        </div>
+
+        <script src="js/slick.js"></script>
+        <script src="js/lightbox.js"></script>
+        <div id="achievement_modal" class="ui basic modal">
+            <i class="close icon"></i>
+              <div class="header"></div>
+              <div class="content"></div>
+              <div class="doubling stackable three column ui medium image grid container"></div>
+        </div>
+
+        <div id="publication_div"  class="row">
+                <div id="publication_col" class="column">
+                    <h1 class="ui header">發表</h1>
+                    <div class="ui divider"></div>  
+                </div>
+            </div>
+        <div id="contact_div" class="row">
+                <div class="column">
+                    <h1 class="ui header">聯絡我</h1>
+                    <div class="ui divider"></div>
+                    <div class="ui six column doubling stackable grid container">
+                      <div class="six wide column">
+                        <div class="column panel">
+                            <div class="column panel">
+                                <div class="ui top attached segment">
+                                    <div id="phone"></div>
+                                </div>
+                                <div class="ui attached segment">
+                                    <div id="email"></div>
+                                </div>
+                                <div class="ui attached segment">
+                                    <div id="facebook"></div>
+                                </div>
+                                <div class="ui attached segment">
+                                    <div id="website"></div>
+                                </div>
+                                <div class="ui bottom attached segment">
+                                    <div id="address"></div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="ten wide column">
+                        <div class="column panel" >
+                          <div class="iframe-rwd">
+                               <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14443.645888067515!2d121.44644092062379!3d25.172466900905793!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442aff90c31a587%3A0x8ca95c90cc91387!2zMjUx5paw5YyX5biC5reh5rC05Y2A6Iux5bCI6LevMTcy6Jmf!5e0!3m2!1szh-TW!2stw!4v1428076930003" width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style="color:#0000FF;text-align:left"></iframe>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div id="mask_modal" class="ui basic modal"></div>
+    </main>
+
+    <div class="ui blue inverted vertical masthead center aligned segment" style="margin-top: 30px;">
+      <div class="ui text container">
+        <div class="row">
+                      <img src="img/logo.png" style="width:130px">
+                  </div>
+          <div class="row">
+            <h4>Copyright © 2015 YiWei Ye</h4>
+          </div>
+      </div>
+    </div>
+    <button id="top_btn" class="large red circular ui icon button"><i class="chevron up
+ icon"></i></button>
+    
+</body>
+</html>

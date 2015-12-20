@@ -1,0 +1,128 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: url("../img/gplaypattern.png");
+    background-repeat: repeat;
+	background-color: #E0FFFF;
+}
+
+
+nav{
+	font-family: '微軟正黑體', 'Open Sans', sans-serif !important;
+}
+
+h1{
+	font-family: '微軟正黑體', 'Open Sans', sans-serif !important;
+}
+
+h2{
+	font-family: '微軟正黑體', 'Open Sans', sans-serif !important;
+}
+
+
+h3{
+	font-family: '微軟正黑體', 'Open Sans', sans-serif !important;
+}
+
+h4{
+	font-family: '微軟正黑體', 'Open Sans', sans-serif !important;
+}
+
+h5{
+	font-family: '微軟正黑體', 'Open Sans', sans-serif !important;
+}
+
+
+.header{
+	font-family: '微軟正黑體', 'Open Sans', sans-serif !important;
+
+}
+
+.content{
+	font-family: '微軟正黑體', 'Open Sans', sans-serif !important;
+}
+
+#head_info{
+	margin-top: 75px;
+	font-size: 18px;
+	font-family: '微軟正黑體', 'Open Sans', sans-serif !important;
+}
+
+.ui .column .main{
+	margin-top: -38px;
+}
+
+.ui .column .main h1{
+	font-size: 50px;
+}
+
+.ui .column .main p{
+	font-size: 16px;
+}
+
+.m-top-20{
+	margin-top: 20px;
+}
+
+.button-control a, {
+	text-transform: capitalize !important;
+}
+
+.img-thumbnail{
+	padding: 4px;
+	border: 1px solid #ddd;
+	background: #fff;
+	border-radius: 4px;
+}
+
+.panel{
+	font-size: 14px !important;
+}
+
+.panel .header{
+	margin: 5px 0;
+}
+
+.iframe-rwd  {
+position: relative;
+padding-bottom: 65.25%;
+padding-top: 30px;
+height: 0;
+overflow: hidden;
+}
+.iframe-rwd iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+#top_btn {
+  position:fixed;
+  bottom:5%;
+  right:2%;
+  background-color: rgba(255, 0, 0, 0.4);
+}
+
+#top_btn:hover {
+  background-color: rgba(255, 0, 0, 0.6);
+}
+
+.modal-image-link {
+  display: inline-block;
+  padding: 2px;
+  margin: 0 0.5rem 1rem 0.5rem;
+  background-color: #fff;
+  line-height: 0;
+  border-radius: 4px;
+  transition: background-color 0.5s ease-out; }
+  .modal-image-link:hover {
+    background-color: #4ae;
+    transition: none; }
+
+.modal-image {
+  border-radius: 4px; }

@@ -1,0 +1,62 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: '微軟正黑體', 'Times New Roman';
+	 font-family: 'Open Sans';
+}
+
+body{
+	font-family: '微軟正黑體', 'Times New Roman';
+	margin-bottom: 60px;
+	background-color: #E0FFFF;
+}
+
+.ui .column .main{
+	margin-top: 40px;
+}
+
+.ui .column .main h1{
+	font-size: 50px;
+}
+
+.ui .column .main p{
+	font-size: 20px;
+}
+
+.m-top-20{
+	margin-top: 20px;
+}
+
+.button-control a, {
+	text-transform: capitalize !important;
+}
+
+.img-thumbnail{
+	padding: 4px;
+	border: 1px solid #ddd;
+	background: #fff;
+	border-radius: 4px;
+}
+
+.panel{
+	font-size: 14px !important;
+}
+
+.panel .header{
+	margin: 5px 0;
+}
+
+.iframe-rwd  {
+position: relative;
+padding-bottom: 65.25%;
+padding-top: 30px;
+height: 0;
+overflow: hidden;
+}
+.iframe-rwd iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}

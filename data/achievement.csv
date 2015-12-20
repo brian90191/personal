@@ -1,0 +1,6 @@
+﻿title,introduction,description,open,link,image_1,image_2,image_3,image_4,image_5
+傳染病統計資料查詢系統,傳染病統計資料查詢系統提供一般民眾、學術界、醫療服務業及公共衛生部門能以最簡便、直捷的線上查詢方式，獲得所需之最新台灣法定傳染病統計資訊。,,1,http://nidss.cdc.gov.tw/,img/nidss_img.png,,,,
+登革熱病例群聚地圖,提供登革熱病例地理分布、每日趨勢、群聚分析以及疫情動態擴散之視覺化展示，供民眾即時查詢和瞭解疫情發展。,,1,http://cdcdengue.azurewebsites.net/,img/cdcdengue_img.png,,,,
+疾病管制署疫情資料協作平台,本平台為疾管署與各區管制中心、縣市衛生局進行去識別之疫情資料交換平台，採office 365建置，並於報表分析使用Microsoft Power BI,,1,http://cloud.cdc.gov.tw/,img/CDC_Portal.png,,,,
+病媒蚊孳生源列管系統,本系統為疾病管制署內部的登革熱管理系統，包含個案座標維護、各式查詢(環域、統計區、密度分析等)、病媒蚊指標及氣象指標等，提供內部防疫參考。,,0,,img/gis_img.png,,,,
+疾管署開放資料加值與推動,將70餘種法定傳染病病例數均加值成開放資料，以及更詳細之登革熱病例與防治資訊、急診與健保的疾病監測、國際疫情監測資訊等。,,1,http://data.gov.tw/taxonomy/term/513,img/opendata_img.png,,,,
